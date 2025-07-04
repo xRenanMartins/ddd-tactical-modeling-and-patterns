@@ -31,7 +31,7 @@ export default class Customer {
         return this._name;
     }
 
-    get address(): Address | undefined {
+    get address(): Address {
         return this._address;
     }
     
